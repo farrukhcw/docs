@@ -387,7 +387,7 @@ To start a queue worker in daemon mode, use the `--daemon` flag:
 
     php artisan queue:work connection --daemon --sleep=3 --tries=3
 
-As you can see, the `queue:work` job supports most of the same options available to `queue:listen`. You may use the `php artisan help queue:work` job to view all of the available options.
+As you can see, the `queue:work` command supports most of the same options available to `queue:listen`. You may use the `php artisan help queue:work` command to view all of the available options.
 
 #### Coding Considerations For Daemon Queue Listeners
 
